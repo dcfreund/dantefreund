@@ -1,6 +1,7 @@
-<SCRIPT LANGUAGE="JavaScript">
+<script type="text/javascript">
 
-<!-- Begin
+
+
 var theImages = new Array() // do not change this
 
 theImages[0] = '1.png'
