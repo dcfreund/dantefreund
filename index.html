@@ -17,6 +17,9 @@
             margin: auto;
         }
 	</style>
+	
+	
+
 <script language="javascript">
 
 
@@ -41,21 +44,21 @@ for (i = 0; i < p; i++){
 }
 var whichImage = Math.round(Math.random()*(p-1));
 function showImage(){
-document.write('<img src="'+theImages[whichImage]+'">');
+document.write('<img class="center-fit" src="'+theImages[whichImage]+'">');
 }
 
 </script>
 
 </head>
 	<body>
-
+		
+<div class="imgbox">
 		<script language="javascript">
-
 		showImage();
 
 	</script>
 
-
+		</div>
 
 	</body>
 
