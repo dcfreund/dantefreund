@@ -2,21 +2,20 @@
 <!DOCTYPE html>
 <html>
 
-
 	<head>
 		<style>
 			* {
-			margin: 0;
-			padding: 0;
+			   margin: 0;
+			   padding: 0;
 			}
 			.imgbox {
-			display: grid;
-			height: 100%;
+			   display: grid;
+			   height: 100%;
 			}
 			.center-fit {
-			max-width: 100%;
-			max-height: 100vh;
-			margin: auto;
+			   max-width: 100%;
+			   max-height: 100vh;
+			   margin: auto;
 			}
 		</style>
 
@@ -41,22 +40,20 @@
 			   preBuffer[i].src = theImages[i]
 			}
 			var whichImage = Math.round(Math.random()*(p-1));
-			function showImage(){
-			document.write('<img class="center-fit" src="'+theImages[whichImage]+'">');
+			   function showImage(){
+			   document.write('<img class="center-fit" src="'+theImages[whichImage]+'">');
 			}
 
 		</script>	
 	</head>
 
-
 	<body>
 		<div class="imgbox">
-		<script language="javascript">
+		   <script language="javascript">
 			showImage();
-		</script>
+		   </script>
 		</div>
 	</body>
-
 
 </html>
 
