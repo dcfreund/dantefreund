@@ -3,10 +3,14 @@
 <!-- Begin
 var theImages = new Array() // do not change this
 
-theImages[0] = '1.gif'
-theImages[1] = '2.gif'
-theImages[2] = '3.gif'
-theImages[3] = '4.gif'
+theImages[0] = '1.png'
+theImages[1] = '2.png'
+theImages[2] = '3.png'
+theImages[3] = '4.png'
+theImages[5] = '5.png'
+theImages[6] = '6.png'
+theImages[7] = '7.png'
+theImages[8] = '8.png'
 
 var j = 0
 var p = theImages.length;
